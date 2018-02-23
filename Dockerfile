@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER "Hidenori MATSUKI <matsuki.hidenori+docker@gmail.com>"
 
 ENV TERRAFORM_VERSION=0.11.3
-ENV TERRAFORM_SHA256SUM=f991039e3822f10d6e05eabf77c9f31f3831149b52ed030775b6ec5195380999
+ENV TERRAFORM_SHA256SUM=6b8a7b83954597d36bbed23913dd51bc253906c612a070a21db373eab71b277b
 
 RUN apk add --update git curl openssh bash && \
     curl https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip > terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \

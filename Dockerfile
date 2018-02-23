@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER "Hidenori MATSUKI <matsuki.hidenori+docker@gmail.com>"
 
-ENV TERRAFORM_VERSION=0.10.0
+ENV TERRAFORM_VERSION=0.11.3
 ENV TERRAFORM_SHA256SUM=f991039e3822f10d6e05eabf77c9f31f3831149b52ed030775b6ec5195380999
 
 RUN apk add --update git curl openssh bash && \
